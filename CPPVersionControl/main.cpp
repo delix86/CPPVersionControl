@@ -1,5 +1,9 @@
 #include <iostream>
-int main() {
+
+void greet() {
 	// print some text
-	std::cout << "Welcome!\n\n" << std::endl;
+	std::cout << "Welcome!\n\n\n" << std::endl;
+}
+int main() {
+	greet();
 }
